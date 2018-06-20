@@ -1,0 +1,335 @@
+# Revit Wavefront OBJ Exporter 2.8.5 - (c) 2017 www.inglegreen.com
+# File Created: 2018/6/20 12:36:08
+
+newmtl Paint_-_Beige
+Ka 0.0000 0.0000 0.0000
+Kd 0.611764705882353 0.592156862745098 0.556862745098039 1.0
+d 1.00
+map_Kd textures\surface_sand_color.jpg
+map_bump textures\surface_sand_color.jpg
+
+newmtl Paint_-_White
+Ka 0.0000 0.0000 0.0000
+Kd 0.654901960784314 0.650980392156863 0.647058823529412 1.0
+d 1.00
+map_Kd textures\Finishes.Plaster.Stucco.Fine.White.jpg
+map_bump textures\Finishes.Plaster.Stucco.Fine.White.jpg
+
+newmtl Wood_Shutters
+Ka 0.0000 0.0000 0.0000
+Kd 0.294117647058824 0.219607843137255 0.192156862745098 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+map_bump textures\Concrete.Cast-In-Place.Ribbed.Vertical.2.bump.jpg
+
+newmtl Wood_Vertical_Grains
+Ka 0.0000 0.0000 0.0000
+Kd 0.329411764705882 0.23921568627451 0.203921568627451 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+
+newmtl Glass
+Ka 0.0000 0.0000 0.0000
+Kd 0.937254901960784 0.945098039215686 0.937254901960784 1.0
+d 0.18
+
+newmtl Conrinthian_a__
+Ka 0.0000 0.0000 0.0000
+Kd 0.611764705882353 0.592156862745098 0.556862745098039 1.0
+d 1.00
+map_Kd textures\surface_sand_color.jpg
+
+newmtl Ionic
+Ka 0.0000 0.0000 0.0000
+Kd 0.611764705882353 0.592156862745098 0.556862745098039 1.0
+d 1.00
+map_Kd textures\surface_sand_color.jpg
+
+newmtl STRUCTURE
+Ka 0.0000 0.0000 0.0000
+Kd 0.580392156862745 0.576470588235294 0.572549019607843 1.0
+d 1.00
+map_Kd textures\Sitework.Paving - Surfacing.Asphalt.jpg
+map_bump textures\Sitework.Paving - Surfacing.Asphalt.jpg
+
+newmtl Cast_Iron
+Ka 0.0000 0.0000 0.0000
+Kd 0.219607843137255 0.219607843137255 0.219607843137255 1.0
+d 1.00
+
+newmtl Roof_Clay_Tiles
+Ka 0.0000 0.0000 0.0000
+Kd 0.309803921568627 0.286274509803922 0.286274509803922 1.0
+d 1.00
+map_Kd textures\Finishes.Painting.Paint.Black.Flaking.jpg
+map_bump textures\Finishes.Painting.Paint.Black.Flaking.jpg
+
+newmtl Wood_-_Floor
+Ka 0.0000 0.0000 0.0000
+Kd 0.349019607843137 0.262745098039216 0.227450980392157 1.0
+d 1.00
+map_Kd textures\maple_chocolateBrown.png
+map_bump textures\maple_chocolateBrown.png
+
+newmtl Brass_Door_Knob
+Ka 0.0000 0.0000 0.0000
+Kd 0.792156862745098 0.603921568627451 0.227450980392157 1.0
+d 1.00
+
+newmtl Stainless_Steel_AISI_405
+Ka 0.0000 0.0000 0.0000
+Kd 0.741176470588235 0.733333333333333 0.725490196078431 1.0
+d 1.00
+
+newmtl Wood_Horizontal_Grains
+Ka 0.0000 0.0000 0.0000
+Kd 0.337254901960784 0.243137254901961 0.207843137254902 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+
+newmtl Fabric
+Ka 0.0000 0.0000 0.0000
+Kd 0.682352941176471 0.63921568627451 0.549019607843137 1.0
+d 0.32
+map_Kd textures\Furnishings.Fabrics.Netting.jpg
+map_bump textures\Furnishings.Fabrics.Netting.jpg
+
+newmtl Steel_Chrome_Plated
+Ka 0.0000 0.0000 0.0000
+Kd 0.0666666666666667 0.0666666666666667 0.0666666666666667 1.0
+d 1.00
+
+newmtl Glass_-_Clear
+Ka 0.0000 0.0000 0.0000
+Kd 0.870588235294118 0.894117647058824 0.882352941176471 1.0
+d 0.14
+
+newmtl Canvas
+Ka 0.0000 0.0000 0.0000
+Kd 0.466666666666667 0.466666666666667 0.462745098039216 1.0
+d 1.00
+map_Kd textures\Furnishings.Fabrics.Burlap.cutout.jpg
+
+newmtl Border
+Ka 0.0000 0.0000 0.0000
+Kd 0.376470588235294 0.376470588235294 0.376470588235294 1.0
+d 1.00
+
+newmtl Paint_-_Gray
+Ka 0.0000 0.0000 0.0000
+Kd 0.137254901960784 0.137254901960784 0.137254901960784 1.0
+d 1.00
+
+newmtl Metal
+Ka 0.0000 0.0000 0.0000
+Kd 0.152941176470588 0.152941176470588 0.152941176470588 1.0
+d 1.00
+
+newmtl Rug_A
+Ka 0.0000 0.0000 0.0000
+Kd 0.486274509803922 0.474509803921569 0.458823529411765 1.0
+d 1.00
+map_Kd textures\carpet.jpeg
+
+newmtl Metal_pendant
+Ka 0.0000 0.0000 0.0000
+Kd 0.298039215686275 0.298039215686275 0.298039215686275 1.0
+d 1.00
+
+newmtl Light_Bulb
+Ka 0.0000 0.0000 0.0000
+Kd 1 1 1 1.0
+d 0.25
+
+newmtl Glass_Frosted
+Ka 0.0000 0.0000 0.0000
+Kd 0.980392156862745 0.956862745098039 0.882352941176471 1.0
+d 0.45
+
+newmtl Render_Material_153-153-153
+Ka 0.0000 0.0000 0.0000
+Kd 0.6 0.6 0.6 1.0
+d 1.00
+
+newmtl Render_Material_38-0-0
+Ka 0.0000 0.0000 0.0000
+Kd 0.792156862745098 0.603921568627451 0.227450980392157 1.0
+d 1.00
+
+newmtl Render_Material_204-204-204
+Ka 0.0000 0.0000 0.0000
+Kd 0.8 0.8 0.8 1.0
+d 1.00
+
+newmtl Render_Material_165-145-82
+Ka 0.0000 0.0000 0.0000
+Kd 0.329411764705882 0.23921568627451 0.203921568627451 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+
+newmtl Render_Material_0-0-0
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 1.00
+
+newmtl Corinthian_Capital
+Ka 0.0000 0.0000 0.0000
+Kd 0.611764705882353 0.592156862745098 0.556862745098039 1.0
+d 1.00
+map_Kd textures\surface_sand_color.jpg
+
+newmtl Frame
+Ka 0.0000 0.0000 0.0000
+Kd 0.0862745098039216 0.0784313725490196 0.0705882352941176 1.0
+d 1.00
+map_Kd textures\Woods and Plastics.Finish Carpentry.Wood.Walnut.jpg
+map_bump textures\Woods and Plastics.Finish Carpentry.Wood.Walnut.jpg
+
+newmtl Backer
+Ka 0.0000 0.0000 0.0000
+Kd 0.0196078431372549 0.0196078431372549 0.0196078431372549 1.0
+d 1.00
+
+newmtl Paper
+Ka 0.0000 0.0000 0.0000
+Kd 0.745098039215686 0.741176470588235 0.67843137254902 1.0
+d 1.00
+map_Kd textures\chipboard.png
+map_bump textures\chipboard.png
+
+newmtl BMCD2AR3\Solid_Materials_\Flat_Colors\Smooth\White
+Ka 0.0000 0.0000 0.0000
+Kd 0.976470588235294 0.976470588235294 0.976470588235294 1.0
+d 1.00
+
+newmtl BMCD2AR3\Solid_Materials_\Matte\Normal\White
+Ka 0.0000 0.0000 0.0000
+Kd 0.188235294117647 0.207843137254902 0.247058823529412 1.0
+d 1.00
+
+newmtl BMCD2AR3\Solid_Materials_\Matte\Textured\Gray_dark
+Ka 0.0000 0.0000 0.0000
+Kd 0.141176470588235 0.145098039215686 0.141176470588235 1.0
+d 0.91
+
+newmtl BMCD2AR3\Solid_Materials_\Matte\Textured\Burnt_Red
+Ka 0.0000 0.0000 0.0000
+Kd 0.301960784313725 0.0313725490196078 0.0392156862745098 1.0
+d 1.00
+
+newmtl BMCD2AR3\Solid_Materials_\Matte\Textured\Brown_dark
+Ka 0.0000 0.0000 0.0000
+Kd 0.427450980392157 0.243137254901961 0.109803921568627 1.0
+d 1.00
+
+newmtl BMCD2AR3\Solid_Materials_\Matte\Textured\Black
+Ka 0.0000 0.0000 0.0000
+Kd 0 0 0 1.0
+d 1.00
+
+newmtl GE_Metal_-_Brass
+Ka 0.0000 0.0000 0.0000
+Kd 0.792156862745098 0.603921568627451 0.227450980392157 1.0
+d 1.00
+
+newmtl GE_Metal_-_Black
+Ka 0.0000 0.0000 0.0000
+Kd 0.215686274509804 0.215686274509804 0.215686274509804 1.0
+d 1.00
+
+newmtl Brass
+Ka 0.0000 0.0000 0.0000
+Kd 0.396078431372549 0.301960784313725 0.105882352941176 1.0
+d 1.00
+
+newmtl Default_Roof_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.0666666666666667 0.0666666666666667 0.0666666666666667 1.0
+d 1.00
+
+newmtl White
+Ka 0.0000 0.0000 0.0000
+Kd 1 1 1 1.0
+d 1.00
+
+newmtl Default_Wall_3
+Ka 0.0000 0.0000 0.0000
+Kd 0.36078431372549 0.172549019607843 0.0941176470588235 1.0
+d 1.00
+map_Kd textures\Woods & Plastics.Finish Carpentry.Wood.Teak.png
+
+newmtl Default_Wall_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.172549019607843 0.105882352941176 0.0705882352941176 1.0
+d 1.00
+map_Kd textures\Woods & Plastics.Finish Carpentry.Wood.Walnut.png
+
+newmtl Default material
+Ka 0.0000 0.0000 0.0000
+Kd 0.588235294117647 0.588235294117647 0.588235294117647 1.0
+d 1.00
+
+newmtl Metal_-_dark
+Ka 0.0000 0.0000 0.0000
+Kd 0.411764705882353 0.301960784313725 0.227450980392157 1.0
+d 1.00
+
+newmtl Metal_-_Gold
+Ka 0.0000 0.0000 0.0000
+Kd 0.792156862745098 0.603921568627451 0.227450980392157 1.0
+d 1.00
+
+newmtl Render_Material_38-19-19
+Ka 0.0000 0.0000 0.0000
+Kd 0.345098039215686 0.250980392156863 0.215686274509804 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+
+newmtl Chair_-_Wood
+Ka 0.0000 0.0000 0.0000
+Kd 0.337254901960784 0.247058823529412 0.211764705882353 1.0
+d 1.00
+map_Kd textures\wood_mahogany_color.jpg
+map_bump textures\Concrete.Cast-In-Place.Ribbed.Vertical.2.bump.jpg
+
+newmtl Chair_-_Fabric
+Ka 0.0000 0.0000 0.0000
+Kd 0.32156862745098 0.258823529411765 0.219607843137255 1.0
+d 1.00
+map_Kd textures\Furnishings.Fabrics.Leather.Brown.png
+map_bump textures\Furnishings.Fabrics.Leather.Brown.png
+
+newmtl Plastic_Black
+Ka 0.0000 0.0000 0.0000
+Kd 0.16078431372549 0.16078431372549 0.16078431372549 1.0
+d 1.00
+
+newmtl Wood_Cherry
+Ka 0.0000 0.0000 0.0000
+Kd 0.329411764705882 0.211764705882353 0.168627450980392 1.0
+d 1.00
+map_Kd textures\maple_chocolateBrown.png
+
+newmtl Wicker
+Ka 0.0000 0.0000 0.0000
+Kd 0.501960784313725 0.43921568627451 0.294117647058824 1.0
+d 1.00
+map_Kd textures\SiteWork.Planting.Basket.Woven.Tight.jpg
+map_bump textures\SiteWork.Planting.Basket.Woven.Tight.Bump.jpg%%SiteWork.Planting.Basket.Woven.Tight.png
+
+newmtl Floor_-_Ceramic_Green
+Ka 0.0000 0.0000 0.0000
+Kd 0.152941176470588 0.196078431372549 0.16078431372549 1.0
+d 1.00
+
+newmtl Floor_-_Ceramic_Brown
+Ka 0.0000 0.0000 0.0000
+Kd 0.345098039215686 0.274509803921569 0.247058823529412 1.0
+d 1.00
+map_Kd textures\Finishes.Flooring.Tile.Square.Terra Cotta.jpg
+
+newmtl Floor_-_Ceramic_Beige
+Ka 0.0000 0.0000 0.0000
+Kd 0.525490196078431 0.486274509803922 0.482352941176471 1.0
+d 1.00
+map_Kd textures\Finishes.Masonry Flooring.Travertine.Mauve.Square.jpg
