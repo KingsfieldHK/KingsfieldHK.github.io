@@ -1,5 +1,5 @@
 # Revit Wavefront OBJ Exporter 2.8.5 - (c) 2017 www.inglegreen.com
-# File Created: 2018/6/20 12:36:08
+# File Created: 2018/6/21 9:26:32
 
 newmtl Paint_-_Beige
 Ka 0.0000 0.0000 0.0000
@@ -51,11 +51,6 @@ Kd 0.580392156862745 0.576470588235294 0.572549019607843 1.0
 d 1.00
 map_Kd textures\Sitework.Paving - Surfacing.Asphalt.jpg
 map_bump textures\Sitework.Paving - Surfacing.Asphalt.jpg
-
-newmtl Cast_Iron
-Ka 0.0000 0.0000 0.0000
-Kd 0.219607843137255 0.219607843137255 0.219607843137255 1.0
-d 1.00
 
 newmtl Roof_Clay_Tiles
 Ka 0.0000 0.0000 0.0000
@@ -129,7 +124,8 @@ newmtl Rug_A
 Ka 0.0000 0.0000 0.0000
 Kd 0.486274509803922 0.474509803921569 0.458823529411765 1.0
 d 1.00
-map_Kd textures\carpet.jpeg
+map_Kd textures\
+map_bump carpet..jpg%%
 
 newmtl Metal_pendant
 Ka 0.0000 0.0000 0.0000
