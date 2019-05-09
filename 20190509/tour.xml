@@ -95,7 +95,7 @@
 		<image>
 			<cube url="panos/01_Lift_Lobby_Night.tiles/pano_%s.jpg" />
 		</image>
-                <hotspot name="spot1" style="skin_hotspotstyle" ath="92.186" atv="30.742" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_02_lift_lobby_day" />
+                <hotspot name="spot1" style="skin_hotspotstyle" ath="92.186" atv="30.742" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_03_corridor_night" />
                 <hotspot name="spot2" style="skin_nighthotspotstyle" ath="92.316" atv="35.066" onclick="loadscene(get(linkedscene))"  linkedscene="scene_01_Lift_Lobby_Day" />
 	</scene>
 
@@ -123,8 +123,8 @@
 		<image>
 			<cube url="panos/02_Lift_Lobby_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="112.872" atv="25.897"  onclick="loadscene(get(linkedscene))" linkedscene="scene_01_lift_lobby_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-100.490" atv="8.499"  onclick="loadscene(get(linkedscene))" linkedscene="scene_03_corridor_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="112.872" atv="25.897"  onclick="loadscene(get(linkedscene))" linkedscene="scene_01_lift_lobby_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-100.490" atv="8.499"  onclick="loadscene(get(linkedscene))" linkedscene="scene_03_corridor_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="-100.631" atv="12.866" linkedscene="scene_02_lift_lobby_day" />
 	</scene>
 
@@ -152,8 +152,8 @@
 		<image>
 			<cube url="panos/03_Corridor_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="115.666" atv="16.473" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_02_lift_lobby_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="32.069" atv="14.926" text="CORRIDOR" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_04_corridor_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="115.906" atv="16.486" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_02_lift_lobby_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="32.069" atv="14.926" text="CORRIDOR" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_04_corridor_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="31.393" atv="19.558" linkedscene="scene_03_corridor_day" />
 	</scene>
 
@@ -181,9 +181,9 @@
 		<image>
 			<cube url="panos/04_Corridor_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="90.188" atv="19.191" linkedscene="scene_05_corridor_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="90.188" atv="19.191" linkedscene="scene_05_corridor_night" />
 		<hotspot name="spot2" style="skin_nighthotspotstyle" ath="90.312" atv="23.500" linkedscene="scene_04_corridor_day" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-90.562" atv="17.445" linkedscene="scene_03_corridor_day" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-90.562" atv="17.445" linkedscene="scene_03_corridor_night" />
 	</scene>
 
 	<scene name="scene_05_Corridor_Day" title="05 Corridor Day" onstart="" thumburl="panos/05_Corridor_Day.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -198,7 +198,7 @@
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="90.135" atv="9.137" linkedscene="scene_06_corridor_day" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="175.315" atv="20.496" Text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_08_living_room_day" />
 		<hotspot name="spot3" style="skin_hotspotstyle" ath="-89.775" atv="21.185" Text="CORRIDOR" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_04_corridor_day" />
-		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="175.054" atv="25.286" linkedscene="scene_05_Corridor_Night" />
+		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="175.054" atv="25.286" linkedscene="scene_05_corridor_night" />
 
 	</scene>
 
@@ -211,9 +211,9 @@
 		<image>
 			<cube url="panos/05_Corridor_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="90.135" atv="9.137" linkedscene="scene_06_corridor_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="175.315" atv="20.496" Text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_07_living_room_day" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-89.775" atv="21.185" Text="CORRIDOR" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_04_corridor_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="90.547" atv="9.386" linkedscene="scene_06_corridor_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="175.315" atv="20.496" Text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_08_living_room_night" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-89.775" atv="21.185" Text="CORRIDOR" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_04_corridor_night" />
 		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="175.054" atv="25.286" linkedscene="scene_05_Corridor_day" />
 	</scene>
 
@@ -240,7 +240,7 @@
 		<image>
 			<cube url="panos/06_Corridor_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="-89.782" atv="11.811" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="-89.782" atv="11.811" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_night" />
 		
                 <hotspot name="spot3" style="skin_nighthotspotstyle" ath="-89.891" atv="16.028" linkedscene="scene_06_Corridor_day" />
 	</scene>
@@ -297,9 +297,9 @@
 		<image>
 			<cube url="panos/08_Living_Room_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="100.198" atv="21.463" onclick="loadscene(get(linkedscene))" linkedscene="scene_09_living_room_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="100.198" atv="21.463" onclick="loadscene(get(linkedscene))" linkedscene="scene_09_living_room_night" />
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.364" atv="22.275" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_day" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-70.275" atv="9.433" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_day" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-70.275" atv="9.433" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_night" />
 		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="100.072" atv="25.926" linkedscene="scene_08_living_room_day" />
 	</scene>
 
@@ -327,8 +327,8 @@
 		<image>
 			<cube url="panos/09_Living_Room_Night.tiles/pano_%s.jpg" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="41.968" atv="23.199" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="2.707" atv="9.904" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_day" />
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="41.968" atv="23.199" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="2.707" atv="9.904" onclick="loadscene(get(linkedscene))" linkedscene="scene_06_corridor_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="41.913" atv="27.598" linkedscene="scene_09_Living_Room_day" />
 	</scene>
 
@@ -357,10 +357,10 @@
 		<image>
 			<cube url="panos/10_Bedroom_Night.tiles/pano_%s.jpg" />
 		</image>
-         <hotspot name="spot1" style="skin_hotspotstyle" ath="-35.922" atv="2.991" text="BATHROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="73.819" atv="32.612" onclick="loadscene(get(linkedscene))" linkedscene="scene_11_bedroom_day" />
+         <hotspot name="spot1" style="skin_hotspotstyle" ath="-35.922" atv="2.991" text="BATHROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="73.819" atv="32.612" onclick="loadscene(get(linkedscene))" linkedscene="scene_11_bedroom_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="73.253" atv="37.003" linkedscene="scene_10_bedroom_day" />
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="-131.121" atv="28.868" text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" linkedscene="scene_08_living_room_day" />
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-131.121" atv="28.868" text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" linkedscene="scene_09_living_room_night" />
 	</scene>
 
 	<scene name="scene_11_Bedroom_Day" title="11 Bedroom Day" onstart="" thumburl="panos/11_Bedroom_Day.tiles/thumb.jpg" lat="" lng="" heading="">
@@ -387,8 +387,8 @@
 		<image>
 			<cube url="panos/11_Bedroom_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="132.252" atv="16.330" text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_08_living_room_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="176.565" atv="25.328" text="BATHROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="132.252" atv="16.330" text="LIVING ROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_09_living_room_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="176.565" atv="25.328" text="BATHROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="176.203" atv="29.506" linkedscene="scene_11_bedroom_day" />
 	</scene>
 
@@ -417,9 +417,9 @@
 		<image>
 			<cube url="panos/12_Bathroom_Night.tiles/pano_%s.jpg" />
 		</image>
-         <hotspot name="spot1" style="skin_hotspotstyle" ath="140.778" atv="25.885" onclick="loadscene(get(linkedscene))" linkedscene="scene_14_bathroom_day" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-122.769" atv="12.984" onclick="loadscene(get(linkedscene))" linkedscene="scene_13_bathroom_day" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="24.980" atv="40.107" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_day" />
+         <hotspot name="spot1" style="skin_hotspotstyle" ath="140.778" atv="25.885" onclick="loadscene(get(linkedscene))" linkedscene="scene_14_bathroom_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-122.769" atv="12.984" onclick="loadscene(get(linkedscene))" linkedscene="scene_13_bathroom_night" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="24.980" atv="40.107" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_11_bedroom_night" />
 		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="140.663" atv="30.723" linkedscene="scene_12_bathroom_day" />
 	</scene>
 
@@ -446,7 +446,7 @@
 		<image>
 			<cube url="panos/13_Bathroom_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="135.979" atv="26.033" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="135.979" atv="26.033" onclick="loadscene(get(linkedscene))" linkedscene="scene_12_bathroom_night" />
 		<hotspot name="spot2" style="skin_nighthotspotstyle" ath="135.237" atv="30.570" linkedscene="scene_13_bathroom_day" />
 	</scene>
 
@@ -474,9 +474,9 @@
 		<image>
 			<cube url="panos/14_Bathroom_Night.tiles/pano_%s.jpg" />
 		</image>
-        <hotspot name="spot1" style="skin_hotspotstyle" ath="111.850" atv="20.907" onclick="loadscene(get(linkedscene))"  linkedscene="scene_12_bathroom_day" />
+        <hotspot name="spot1" style="skin_hotspotstyle" ath="111.850" atv="20.907" onclick="loadscene(get(linkedscene))"  linkedscene="scene_12_bathroom_night" />
 		<hotspot name="spot2" style="skin_nighthotspotstyle" ath="111.541" atv="25.641" linkedscene="scene_14_bathroom_day" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="57.291" atv="36.399" linkedscene="scene_13_bathroom_day" />
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="57.291" atv="36.399" linkedscene="scene_13_bathroom_night" />
 	</scene>
 
 
