@@ -95,7 +95,7 @@
 		<image>
 			<cube url="panos/01_Lift_Lobby_Night.tiles/pano_%s.jpg" />
 		</image>
-                <hotspot name="spot1" style="skin_hotspotstyle" ath="92.186" atv="30.742" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_03_corridor_night" />
+                <hotspot name="spot1" style="skin_hotspotstyle" ath="92.186" atv="30.742" text="LIFT LOBBY" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_02_lift_lobby_night" />
                 <hotspot name="spot2" style="skin_nighthotspotstyle" ath="92.316" atv="35.066" onclick="loadscene(get(linkedscene))"  linkedscene="scene_01_Lift_Lobby_Day" />
 	</scene>
 
