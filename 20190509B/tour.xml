@@ -245,7 +245,7 @@
                 <hotspot name="spot3" style="skin_nighthotspotstyle" ath="-89.891" atv="16.028" linkedscene="scene_06_Corridor_day" />
 	</scene>
 
-<!-- 	<scene name="scene_07_Living_Room_Day" title="07 Living Room Day" onstart="" thumburl="panos/07_Living_Room_Day.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_07_Living_Room_Day" title="07 Living Room Day" onstart="" thumburl="panos/07_Living_Room_Day.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="111.888" vlookat="0.313" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -257,9 +257,9 @@
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="100.191" atv="26.414" linkedscene="scene_08_living_room_day" />
 		<hotspot name="spot2" style="skin_nighthotspotstyle" ath="100.253" atv="31.004" linkedscene="scene_07_living_room_night" />
 
-	</scene> -->
+	</scene>
 
-<!-- 	<scene name="scene_07_Living_Room_Night" title="07 Living Room Night" onstart="" thumburl="panos/07_Living_Room_Night.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_07_Living_Room_Night" title="07 Living Room Night" onstart="" thumburl="panos/07_Living_Room_Night.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="111.888" vlookat="0.313" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 
@@ -270,7 +270,7 @@
 		</image>
         <hotspot name="spot1" style="skin_hotspotstyle" ath="100.191" atv="26.414" linkedscene="scene_08_living_room_day" />
 		<hotspot name="spot2" style="skin_nighthotspotstyle" ath="100.253" atv="31.004" linkedscene="scene_07_living_room_day" />
-	</scene> -->
+	</scene>
 
 	<scene name="scene_08_Living_Room_Day" title="08 Living Room Day" onstart="" thumburl="panos/08_Living_Room_Day.tiles/thumb.jpg" lat="" lng="" heading="">
 
@@ -298,7 +298,7 @@
 			<cube url="panos/08_Living_Room_Night.tiles/pano_%s.jpg" />
 		</image>
         <hotspot name="spot1" style="skin_hotspotstyle" ath="100.198" atv="21.463" onclick="loadscene(get(linkedscene))" linkedscene="scene_09_living_room_night" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.364" atv="22.275" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-1.364" atv="22.275" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_day" />
 		<hotspot name="spot3" style="skin_hotspotstyle" ath="-70.275" atv="9.433" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_night" />
 		<hotspot name="spot4" style="skin_nighthotspotstyle" ath="100.072" atv="25.926" linkedscene="scene_08_living_room_day" />
 	</scene>
@@ -328,7 +328,7 @@
 			<cube url="panos/09_Living_Room_Night.tiles/pano_%s.jpg" />
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="41.968" atv="23.199" text="BEDROOM" onover="add_all_the_time_tooltip_for_VR()" onout="remove_all_the_time_tooltip_for_VR()" onclick="loadscene(get(linkedscene))" linkedscene="scene_10_bedroom_night" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="2.707" atv="9.904" onclick="loadscene(get(linkedscene))" linkedscene="scene_05_corridor_night" />
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="2.707" atv="9.904" onclick="loadscene(get(linkedscene))" linkedscene="scene_06_corridor_night" />
 		<hotspot name="spot3" style="skin_nighthotspotstyle" ath="41.913" atv="27.598" linkedscene="scene_09_Living_Room_day" />
 	</scene>
 
